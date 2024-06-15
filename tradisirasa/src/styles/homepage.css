@@ -1,0 +1,405 @@
+/* homepage.css */
+
+.header {
+  padding-bottom: 12%;
+  padding-top: 5%;
+}
+
+.custom-btn {
+  padding: 14px 30px;
+  background-color: #FF2525;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.text-center img {
+  border-radius: 25px;
+  height: auto;
+}
+
+.tipe {
+  background: linear-gradient(to left, #FFA800, #FF2525);
+  padding: 50px;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tipe img {
+  padding: 10px;
+  margin-top: -150px;
+  transition: transform 0.3s ease;
+}
+
+.tipe img:hover {
+  transform: scale(1.1);
+  filter: grayscale(10%) brightness(60%);
+}
+
+.tipe h5 {
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 1305px) {
+  .tipe {
+    overflow-x: auto;
+    flex-wrap: nowrap; /* Hindari pemindahan item ke baris baru */
+    -webkit-overflow-scrolling: touch; /* Aktifkan scrolling lembut di perangkat iOS */
+    
+    margin-bottom: -20px; /* Kompensasi untuk margin bawah agar tidak muncul scroll horizontal */
+  }
+
+  .tipe div {
+    margin-top: 120px; /* Tambahkan margin atas 50px pada perangkat seluler */
+    margin-bottom: 0 /* Kembalikan margin bawah pada setiap item */
+  }
+}
+
+.resep {
+  padding-top: 30px;
+  width: 100%;
+}
+
+.resep h1{
+  text-align: center;
+}
+
+.artikel h1{
+  font-weight: 600;
+  padding-top: 5%;
+  width: 100%;
+}
+
+.artikel .card img {
+  width: 100%;
+  max-height: 150px;
+  align-items: center;
+}
+
+.cuaca {
+  padding-top: 50px;
+}
+
+.cuaca p {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.cuaca h3 {
+  padding-top: 25px;
+  font-size: 14px;
+}
+
+.cuaca h5 {
+  font-size: 14px;
+}
+
+.logok {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.carousel .card {
+  max-width: 80%;
+  border: none;
+  margin: 0 auto;
+  background: linear-gradient(to bottom left, #FFA800, #FF2525);
+}
+
+.carousel .card-body {
+  padding-top: 40px;
+}
+
+.carousel .card-body h5 {
+  color: white;
+}
+
+.carousel .card-body p {
+  color: white;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 12px;
+}
+
+.carousel .card-img {
+  max-height: 350px;
+  object-fit: cover;
+}
+
+.carousel .card-title {
+  font-weight: bold;
+  font-weight: 500;
+}
+
+.carousel .btn-primary {
+  background-color: #ffffff;
+  border-color: #ff6347;
+  color: red;
+  border-radius: 30px;
+}
+
+.carousel .btn-primary:hover {
+  background-color: #faa789;
+  border-color: #f19f80;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .carousel-caption p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+.card-header {
+  max-height: 80%;
+}
+
+.forum {
+  padding-top: 130px;
+  box-sizing: border-box;
+}
+
+.forum .col-md-4 img {
+  max-width: 500px;
+  max-height: 200px;
+}
+
+.forum .card-title {
+  background: linear-gradient(to right, red, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.forum .card {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7);
+  margin: 20px;
+}
+
+.forum .card-text {
+  background: linear-gradient(to right, red, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 640;
+}
+
+.forum .lastupdate {
+  background: linear-gradient(to right, red, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.forum .profileakun p,
+small {
+  background: linear-gradient(to right, red, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+@media (max-width: 768px) {
+  .card-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+}
+
+.profile-info .rounded-circle {
+  border-radius: 50%;
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.profile-info small {
+  margin-left: 10px;
+}
+
+.artikel {
+  padding-top: 50px;
+}
+
+.artikel .card {
+  background: linear-gradient(45deg, #FF2525, #FF2525, #FFA800);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.artikel .card-img-top {
+  margin: 0 auto;
+  display: block;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  object-fit: cover;
+  max-height: 150px;
+  transition: transform 0.3s ease;
+}
+
+.artikel .card-img-top:hover {
+  transform: scale(1.1);
+}
+
+.artikel .card-title {
+  color: white;
+}
+
+.artikelain .btn-primary {
+  background: linear-gradient(to right, #FF2525, #FFA800);
+  border: none;
+  padding: 15px 15%;
+  font-size: 14px;
+  border-radius: 100px;
+}
+
+.forumlain .btn-primary {
+  background: linear-gradient(to right, #FF2525, #FFA800);
+  border: none;
+  padding: 15px 15%;
+  font-size: 14px;
+  border-radius: 100px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: repeat(2, minmax(0, auto));
+  width: 100%;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
+.card {
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+
+/*banner */
+
+.bannerc {
+  position: relative;
+  background-color: red; /* Warna latar belakang merah */
+  border-radius: 20px;
+  margin: 10px;
+  width: 50%;
+  height: 250px; /* Sesuaikan tinggi banner */
+  overflow: hidden; /* Agar gambar yang keluar dari batas banner tidak terlihat */
+}
+
+.bannerc .bannercuacatxthp {
+  position: absolute;
+  z-index: 4;
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 20px;
+  color: white; /* Warna teks */
+  font-size: 32px; /* Ukuran font */
+  font-weight: 500; /* Ketebalan font */
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); /* Efek bayangan teks */
+}
+
+.bannerc img.awancerahhp {
+  position: absolute;
+  bottom: -80px; /* Memulai posisi gambar dari bawah banner */
+  transition: opacity 0.5s, bottom 0.9s; /* Menambahkan transisi */
+  z-index: 1; /* Mengatur z-index untuk gambar awan */
+  right: 50px; /* Meletakkan gambar awan mendung di sebelah kanan banner */
+  width: 300px;
+}
+
+.bannerc img.mataharihp {
+  position: absolute;
+  bottom: -90px; /* Memulai posisi gambar dari bawah banner */
+  transition: opacity 0.5s, bottom 0.9s; /* Menambahkan transisi */
+  z-index: 2; /* Mengatur z-index untuk gambar petir kecil */
+  right: 210px; /* Meletakkan gambar petir kecil di sebelah kanan banner */
+  width: 130px;
+}
+
+.bannerc:hover img.awancerahhp {
+  bottom: 20px; /* Menggeser gambar petir besar ke posisi yang lebih rendah saat di-hover */
+  opacity: 1; /* Set opasitas menjadi penuh saat di-hover */
+}
+
+.bannerc:hover img.mataharihp {
+  bottom: 85px; /* Menggeser gambar petir besar ke posisi yang lebih rendah saat di-hover */
+  opacity: 1; /* Set opasitas menjadi penuh saat di-hover */
+}
+
+.bannerc img.awanmendunghp {
+  position: absolute;
+  bottom: -80px; /* Memulai posisi gambar dari bawah banner */
+  transition: opacity 0.5s, bottom 0.9s; /* Menambahkan transisi */
+  z-index: 1; /* Mengatur z-index untuk gambar awan */
+  right: 50px; /* Meletakkan gambar awan mendung di sebelah kanan banner */
+  width: 300px;
+}
+
+.bannerc img.petirkecilhp {
+  position: absolute;
+  bottom: -30px; /* Memulai posisi gambar dari bawah banner */
+  transition: opacity 0.5s, bottom 0.9s; /* Menambahkan transisi */
+  z-index: 2; /* Mengatur z-index untuk gambar petir kecil */
+  right: 250px; /* Meletakkan gambar petir kecil di sebelah kanan banner */
+  width: 60px;
+}
+
+.bannerc img.petirbesarhp {
+  position: absolute;
+  bottom: -200px; /* Memulai posisi gambar dari bawah banner */
+  transition: opacity 0.5s, bottom 0.9s; /* Menambahkan transisi */
+  z-index: 3; /* Mengatur z-index untuk gambar petir besar */
+  right: 100px; /* Meletakkan gambar petir besar di sebelah kanan banner */
+  width: 150px;
+}
+
+.bannerc:hover img.awanmendunghp {
+  bottom: 20px; /* Menggeser gambar petir besar ke posisi yang lebih rendah saat di-hover */
+  opacity: 1; /* Set opasitas menjadi penuh saat di-hover */
+}
+
+.bannerc:hover img.petirbesarhp {
+  bottom: -75px; /* Menggeser gambar petir besar ke posisi yang lebih rendah saat di-hover */
+  opacity: 1; /* Set opasitas menjadi penuh saat di-hover */
+}
+
+.bannerc:hover img.petirkecilhp {
+  bottom: 100px; /* Menggeser gambar petir besar ke posisi yang lebih rendah saat di-hover */
+  opacity: 1; /* Set opasitas menjadi penuh saat di-hover */
+}

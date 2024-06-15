@@ -1,0 +1,342 @@
+.back img {
+    padding-left: 20px;
+}
+
+.judul h2 {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.upload {
+    padding: 20px 0 10px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.upload img {
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-right: 100px;
+    cursor: pointer;
+}
+
+.upload form {
+    flex: 1;
+}
+
+.upload .form-label {
+    font-weight: 650;
+}
+
+.upload .form-control {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.upload .nmasakan input,
+.upload .penjelasan textarea {
+    border: 1px solid #FF2525;
+    color: #FF2525;
+    padding: 10px;
+}
+
+.upload .btn {
+    width: calc(100% - 30px);
+    background: linear-gradient(to right, red, orange);
+    border: none;
+    padding: 10px;
+}
+
+.upload .btn img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.penjelasan {
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.penjelasan label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.deskripsi-resep {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+.rincian h2 {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.nama-resep {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+.deskripsi-resep:focus,
+.nama-resep:focus {
+    border-color: #FF2525;
+    box-shadow: 0 0 5px rgba(255, 37, 37, 0.5);
+    outline: none;
+}
+
+.file-input {
+    display: none;
+}
+
+.file-input-step {
+    display: none;
+}
+
+
+
+.bahan {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.bahannya {
+    flex: 1;
+    width: 50%;
+    margin-right: 50px;
+}
+
+.bahan input {
+    border: 1px solid #FF2525;
+    border-radius: 5px;
+    color: red;
+    padding: 10px;
+}
+
+
+.bahan input:focus {
+    border-color: #FF2525;
+    box-shadow: 0 0 5px rgba(255, 37, 37, 0.5);
+    outline: none;
+    padding: 10px;
+}
+
+
+#kurang.action-button {
+    padding-left: 10px;
+}
+
+.action-button:hover {
+    transform: scale(1.1);
+}
+
+.dropdown {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.dropdown h3 {
+    margin-top: 40px;
+    font-size: 24px;
+}
+
+.dropdown .btn-secondary {
+    border: 1px solid red;
+    background-color: transparent;
+    color: red;
+    width: 100%;
+}
+
+.dropdown .btn-secondary:hover {
+    border: 1px solid red;
+    background-color: transparent;
+    color: red;
+    width: 100%;
+}
+
+.dropdown-menu {
+    border: 1px solid red;
+}
+
+.dropdown-item {
+    color: red;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.banyaksaji {
+    padding-right: 10px;
+}
+
+.waktu,
+.kategori {
+    padding: 0 10px;
+}
+
+.caramasak {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#fileUpload {
+    display: none;
+}
+
+#fileUploadstep {
+    display: none;
+}
+
+.caramasak .upload img {
+    width: 150px;
+    height: auto;
+}
+
+.caramasak input {
+    border: 1px solid #FF2525;
+    width: 100%;
+    border-radius: 5px;
+    color: red;
+    padding: 10px;
+    margin-right: 50px;
+}
+
+.caramasak input:focus {
+    border-color: #FF2525;
+    box-shadow: 0 0 5px rgba(255, 37, 37, 0.5);
+    outline: none;
+    padding: 10px;
+}
+
+.caramasak img {
+    margin-right: 10px;
+}
+
+.caramasak img:hover {
+    transform: scale(1.1);
+}
+
+.tag-container {
+    border: 1px solid #FF2525;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tag-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.tag-input {
+    margin-bottom: 10px;
+}
+
+.tag {
+    background-color: #f9f9f9;
+    color: #000000;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px;
+    border: 1px solid #FF2525;
+    border-radius: 20px;
+}
+
+.tag:hover {
+    background: linear-gradient(45deg, #FF2525, #FFA800);
+    color: #fff;
+}
+
+.tag .close {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#tagInput {
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 14px;
+    padding: 5px;
+    width: 100%;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #ff0000; /* Warna garis */
+    margin-top: 10px; /* Jarak di atas garis */
+    margin-bottom: 10px; /* Jarak di bawah garis */
+}
+
+
+.katakunci h2 {
+    margin-top: 20px;
+}
+
+.buttonunggah {
+    text-align: center; 
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.buttonunggah .tag-button {
+    background-color: transparent; /* Latar belakang transparan */
+    border: 2px solid #FF2525; /* Border merah 2px */
+    color: #FF2525; /* Warna teks merah */
+    padding: 10px 50px;
+    margin: 10px; 
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none; /* Menghilangkan garis bawah pada tautan */
+}
+
+.buttonunggah .tag-button:hover {
+    border: 1px solid #FF2525; /* Border merah 2px */
+    background-color: #FF6347; /* Warna latar belakang saat dihover */
+    color: white; /* Warna teks menjadi putih saat dihover */
+}
+
+.buttonunggah .up-button {
+    background-color: #FF4500; 
+    border: none;
+    color: white; 
+    padding: 10px 50px;
+    margin: 10px; 
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none; /* Menghilangkan garis bawah pada tautan */
+}
+
+.buttonunggah .up-button:hover {
+    background-color: #FF6347;
+}
+

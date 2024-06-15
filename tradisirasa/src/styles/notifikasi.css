@@ -1,0 +1,132 @@
+/* src/components/LatestNotifications.css */
+.latest-notifications {
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .latest-notifications h3 {
+    margin-top: 0;
+  }
+  
+  .notification-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .notification-img {
+    width: 100px;
+    height: 70px;
+    margin-right: 10px;
+  }
+  
+  .notification-content {
+    flex-grow: 1;
+  }
+  
+  .notification-divider {
+    border-bottom: 2px solid red;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  /* src/components/UserNotifications.css */
+.user-notifications {
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .user-notifications h3 {
+    margin-top: 0;
+  }
+  
+  .user-notification-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .user-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
+  .user-notification-content {
+    flex-grow: 1;
+    display: flex;
+  }
+  
+  .action-buttonnotif {
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    padding: 8px 10px; /* Atur padding sesuai kebutuhan */
+    cursor: pointer;
+  }
+  
+  .action-buttonnotif:hover {
+    opacity: 0.8; /* Opacity akan berkurang sedikit ketika tombol dihover */
+  }
+
+
+  .action-buttoncancel {
+    background-color: transparent;
+    color: black;
+    border: solid 2px;
+    border-radius: 50%; /* Mengatur border-radius ke 50% akan membuat tombol berbentuk lingkaran */
+    width: 30px; /* Sesuaikan lebar tombol sesuai kebutuhan */
+    height: 30px; /* Sesuaikan tinggi tombol sesuai kebutuhan */
+    margin-left: 5px; /* Atur jarak ke kiri agar tombol berada di samping */
+    display: inline-block;
+    font-size: 16px; /* Sesuaikan ukuran teks sesuai kebutuhan */
+    cursor: pointer;
+  }
+  
+  .action-buttoncancel:hover {
+    opacity: 0.8; /* Opacity akan berkurang sedikit ketika tombol dihover */
+  }
+  
+
+  /* src/components/AccountRecommendations.css */
+.account-recommendations { 
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .account-recommendations h3 {
+    margin-top: 0;
+  }
+  
+  .recommendation-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .recommendation-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
+  .recommendation-content {
+    flex-grow: 1;
+  }
+  
+  .follow-button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .follow-button.following {
+    background-color: #6c757d;
+  }
+  

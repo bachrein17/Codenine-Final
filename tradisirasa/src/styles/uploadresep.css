@@ -1,0 +1,12 @@
+  /* Default state */
+.custom-checkbox {
+  background-color: transparent;
+  border-color: red;
+  border-radius: 5px;
+}
+
+/* Checked state */
+.custom-checkbox:checked {
+  background-color: red;
+  border-color: red;
+}

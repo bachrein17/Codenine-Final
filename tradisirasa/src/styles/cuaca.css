@@ -1,0 +1,90 @@
+.bannercuaca {
+    position: relative;
+    background-color: red; /* Warna latar belakang merah */
+    border-radius: 20px;
+    height: 200px; /* Sesuaikan tinggi banner */
+    overflow: hidden; /* Agar gambar yang keluar dari batas banner tidak terlihat */
+}
+
+.bannercuaca .bannercuacatxt {
+    position: absolute;
+    z-index: 4;
+    text-align: left;
+    margin-left: 90px;
+    margin-top: 50px;
+    color: white; /* Warna teks */
+    font-size: 36px; /* Ukuran font */
+    font-weight: 650; /* Ketebalan font */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); /* Efek bayangan teks */
+}
+
+.bannercuaca img.awanmendung {
+    position: absolute;
+    bottom: -120px; /* Memulai posisi gambar dari bawah banner */
+    transition: opacity 0.5s, bottom 0.9s; /* Menambahkan transisi */
+    z-index: 1; /* Mengatur z-index untuk gambar awan */
+    right: 100px; /* Meletakkan gambar awan mendung di sebelah kanan banner */
+    width: 400px;
+}
+
+.bannercuaca img.petirkecil {
+    position: absolute;
+    bottom: -60px; /* Memulai posisi gambar dari bawah banner */
+    transition: opacity 0.5s, bottom 0.9s; /* Menambahkan transisi */
+    z-index: 2; /* Mengatur z-index untuk gambar petir kecil */
+    right: 400px; /* Meletakkan gambar petir kecil di sebelah kanan banner */
+    width: 60px;
+}
+
+.bannercuaca img.petirbesar {
+    position: absolute;
+    bottom: -400px; /* Memulai posisi gambar dari bawah banner */
+    transition: opacity 0.5s, bottom 0.9s; /* Menambahkan transisi */
+    z-index: 3; /* Mengatur z-index untuk gambar petir besar */
+    right: 100px; /* Meletakkan gambar petir besar di sebelah kanan banner */
+    width: 300px;
+}
+
+.bannercuaca:hover img.awanmendung {
+    bottom: -65px; /* Menggeser gambar petir besar ke posisi yang lebih rendah saat di-hover */
+    opacity: 1; /* Set opasitas menjadi penuh saat di-hover */
+}
+
+.bannercuaca:hover img.petirbesar {
+    bottom: -250px; /* Menggeser gambar petir besar ke posisi yang lebih rendah saat di-hover */
+    opacity: 1; /* Set opasitas menjadi penuh saat di-hover */
+}
+
+.bannercuaca:hover img.petirkecil {
+    bottom: 30px; /* Menggeser gambar petir besar ke posisi yang lebih rendah saat di-hover */
+    opacity: 1; /* Set opasitas menjadi penuh saat di-hover */
+}
+
+
+.bannercuaca img.awancerah {
+    position: absolute;
+    bottom: -110px; /* Memulai posisi gambar dari bawah banner */
+    transition: opacity 0.5s, bottom 0.9s; /* Menambahkan transisi */
+    z-index: 1; /* Mengatur z-index untuk gambar awan */
+    right: 100px; /* Meletakkan gambar awan mendung di sebelah kanan banner */
+    width: 400px;
+}
+
+.bannercuaca img.matahari {
+    position: absolute;
+    bottom: -90px; /* Memulai posisi gambar dari bawah banner */
+    transition: opacity 0.5s, bottom 0.9s; /* Menambahkan transisi */
+    z-index: 2; /* Mengatur z-index untuk gambar petir kecil */
+    right: 330px; /* Meletakkan gambar petir kecil di sebelah kanan banner */
+    width: 150px;
+}
+
+.bannercuaca:hover img.awancerah {
+    bottom: -65px; /* Menggeser gambar petir besar ke posisi yang lebih rendah saat di-hover */
+    opacity: 1; /* Set opasitas menjadi penuh saat di-hover */
+}
+
+.bannercuaca:hover img.matahari {
+    bottom: 10px; /* Menggeser gambar petir besar ke posisi yang lebih rendah saat di-hover */
+    opacity: 1; /* Set opasitas menjadi penuh saat di-hover */
+}

@@ -1,0 +1,14 @@
+
+.recipe-card {
+    max-height: 400px; /* Set a max height as needed */
+    height: 100%; /* Ensure full height */
+  }
+  
+  .recipe-card .card-img {
+    object-fit: cover; /* Ensure the image covers its container */
+  }
+  
+  .recipe-card .card-body {
+    overflow: hidden; /* Prevent overflow */
+  }
+  

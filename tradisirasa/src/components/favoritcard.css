@@ -1,0 +1,20 @@
+.card-favorit img {
+    transition: transform 0.3s ease, filter 0.3s ease; 
+}
+
+.card-favorit img:hover {
+    transform: scale(1.1);
+    filter: grayscale(10%) brightness(65%);
+    cursor: pointer;
+}
+
+.border-customf {
+    border: 1px solid red;
+    padding: 5px;
+    margin: 8px;
+    border-radius: 5px; 
+    cursor: pointer;
+  }
+
+
+  

@@ -1,0 +1,33 @@
+.navbar {
+    background-color: #F8F8F8;
+    backdrop-filter: blur(10px);
+    width: 100%;
+    margin-right: 10%;
+  }
+
+
+  .nav-item {
+    padding-top: 10px;
+    padding-right: 15px;
+    font-weight: 500;
+  }
+  
+  .nav-item a.nav-link.active img {
+    transition: filter 0.3s ease-in-out;
+  }
+  
+  
+  .navbar-nav .nav-link.active:hover {
+    color: white;
+    border: 2px solid transparent; 
+    border-radius: 30px;    
+    background-image: linear-gradient(to bottom left,#FFA800 ,#FF2525);
+    background-clip: padding-box; 
+    border: none;
+  }
+  
+  
+  header {
+    padding-bottom: 12%;
+    padding-top: 2%;
+  }

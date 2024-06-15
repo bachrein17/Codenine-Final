@@ -1,0 +1,100 @@
+footer {
+    background-color: #FF2525;
+    padding: 30px 0;
+    color: white;
+  }
+  
+  .deskripsi {
+    display: flex;
+  }
+  
+  .deskripsi img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .deskripsi p {
+    padding-left: 10px;
+    font-size: 12px;
+  }
+  
+  @media (max-width: 768px) {
+    .deskripsi p {
+        display: none;
+    }
+  }
+  
+  .sitemap .nostyle li a,
+  .sitemap .ul2 li a,
+  .socmed .nostyle li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .sitemap .nostyle li a:hover,
+  .sitemap .ul2 li a:hover,
+  .socmed .nostyle li a:hover {
+    font-weight: bold;
+  }
+  
+  .sitemapk {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .sitemapk {
+    display: flex;
+    margin-right: 20px;
+  }
+  
+  .sitemapk1 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+  
+  }
+  
+  .tradisirasafooter,
+  .sitemap,
+  .socmed {
+    flex-basis: 30%;
+  }
+  
+  .tradisirasafooter img {
+    max-width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .sitemap .ul2 {
+    padding-left: 10px;
+  }
+  
+  .sitemap ul,
+  .socmed ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sitemap li,
+  .socmed li {
+    margin-bottom: 5px;
+  }
+  
+  .socmed img {
+    max-width: 30px;
+    margin-right: 10px;
+  }
+  
+  .footer2 {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }

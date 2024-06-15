@@ -1,0 +1,21 @@
+.search-container button {
+  background-color: linear-gradient(to right, #FF2525, #FFA800);
+  border: none;
+  padding: 5px 15px; 
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.tagfr {
+  display: inline-block; 
+  margin: 5px;
+  color: white; 
+}
+
+.tagfr .border-custom {
+  background: linear-gradient(45deg,#FF2525 60%, #FFA800);
+  border: 1px solid #FF2525;
+  border-radius: 50px;
+  padding: 5px 15px; 
+  transition: background-color 0.3s ease;
+}

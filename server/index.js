@@ -1,4 +1,3 @@
-// server.js
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
@@ -16,8 +15,7 @@ app.use(cors());
 
 // Routes
 const recipeRoutes = require('./routes/recipe.routes');
-const userRoutes = require('./routes/user.routes'); // Pastikan path ini sesuai dengan struktur di dalam user.routes.js
-
+const userRoutes = require('./routes/user.routes'); 
 // Use routes
 app.use('/api/recipes', recipeRoutes);
 app.use('/api/users', userRoutes);
